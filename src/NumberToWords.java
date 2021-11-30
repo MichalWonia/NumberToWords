@@ -11,8 +11,9 @@ public class NumberToWords {
         return reverse / 10;
     }
 
-
-
+    public static int getDigitCount(int number) {
+        return String.valueOf(number).length();
+    }
 
     public static void main(String[] args) {
 
